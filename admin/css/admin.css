@@ -1,0 +1,145 @@
+/*--- spwai-styles.css ---*/
+div.spwai-meta-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#woocommerce-product-data div.spwai-variation-meta-box h2{
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+label.spwai-prompt-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.spwai-prompt {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.spwai-generate {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    float: left;
+}
+
+.spwai-generate:hover {
+    background-color: #45a049;
+}
+
+/*-- loader --*/
+.spwai-button-container {
+    position: relative;
+    display: inline-block;
+    /* Ensure the container only takes as much width as needed */
+}
+
+.spwai-loader {
+    float: left;
+}
+
+.spwai-loader img {
+    width: 30px;
+}
+
+
+div.spwai-output {
+    margin-top: 15px;
+}
+
+div.spwai-output label {
+    /* display: block; */
+    margin-bottom: 5px;
+}
+
+div.spwai-output input,
+div.spwai-output textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.spwai-output input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-top: 0;
+}
+
+.spwai-error-message {
+    color: #ff0000;
+    /* Red color for error messages */
+    margin-top: 5px;
+}
+
+.spwai-error-message a {
+    color: #ff0000;
+    /* Red color for error messages */
+    text-decoration: underline;
+}
+
+
+/*---- Settings page ----*/
+.spwai-settings .wrap {
+    /* max-width: 800px; */
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.spwai-settings h2 {
+    color: #0073aa;
+}
+
+.spwai-settings form {
+    margin-top: 20px;
+}
+
+.spwai-settings input[type="text"],
+.spwai-settings select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.spwai-settings button.button-primary {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.spwai-settings .spwai-help-link {
+    display: inline-block;
+    margin-left: 0.5em;
+    font-size: 14px;
+    /* color: #0073aa; */
+    text-decoration: none;
+}
+
+span.spwai-by-text {
+    float: right;
+    margin-top: -46px;
+    padding: 20px;
+}
+
+.toplevel_page_ai-product-content-creator-for-woocommerce input[type="text"], 
+.toplevel_page_ai-product-content-creator-for-woocommerce select{
+    max-width: 30rem;
+}
